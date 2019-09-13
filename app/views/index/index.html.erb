@@ -1,4 +1,9 @@
 <div>
 testing
-<a class="btn btn-primary">Test</a>
+<a id="startBot" class="btn btn-primary">Start the bot</a>
 </div>
+<script>
+    document.getElementById('startBot').onclick = function(){
+        fetch("/bot/start").then(function(){console.log("done")});
+    }
+</script>
