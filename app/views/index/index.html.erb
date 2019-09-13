@@ -1,9 +1,13 @@
 <div>
 testing
 <a id="startBot" class="btn btn-primary">Start the bot</a>
+<a id="killBot" class="btn btn-primary">Kill the bot</a>
 </div>
 <script>
     document.getElementById('startBot').onclick = function(){
         fetch("/bot/start").then(function(){console.log("done")});
+    }
+    document.getElementById('killBot').onclick = function(){
+        fetch("/bot/kill").then(function(){console.log("Bot stopped")});
     }
 </script>

@@ -1,24 +1,14 @@
-# README
+# MoulsonBot Discord Bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A new version of the discord bot I started a while ago
 
-Things you may want to cover:
+The main purpose of this bot is for me to get better with Ruby on Rails
+The old bot was a mess and I am attempting to creater a cleaner version with this one
 
-* Ruby version
+It's not supposed to be state of the art, it's a side project for me to explore different technologies.
 
-* System dependencies
+If for some reason you want to run this yourself, create a config file at `/config/settings.yml`
+and include these values:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* `DISCORD_BOT_TOKEN: '<your bot's token>'`
+* `MASTER_USER_ID: '<your discord user id>'`
