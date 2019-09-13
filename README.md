@@ -12,3 +12,6 @@ and include these values:
 
 * `DISCORD_BOT_TOKEN: '<your bot's token>'`
 * `MASTER_USER_ID: '<your discord user id>'`
+
+Requires Rails 6
+Requires at least ruby-2.6.3
